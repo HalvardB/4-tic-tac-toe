@@ -7,7 +7,7 @@
   * The winners name is displayed if there is a winner.
 */
 
-!function(underscore){ // Modular pattern
+!function(){ // Modular pattern
   let player1Array = [];
   let player2Array = [];
   let currentPlayer = "player1";
@@ -216,4 +216,4 @@
       changePlayer(player2, player1, "player1");
     }
   }
-}());
+}();
