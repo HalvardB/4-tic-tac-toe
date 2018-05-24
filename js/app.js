@@ -1,6 +1,5 @@
 /* Summary
-- Im shooting for the Exceeds expectations on this project.
-- In addition to the expected functionality in the game, I've added:
+- In addition to the expected functionality of the game, I've added:
   * You have to insert a nickname before you can start.
   * The player's name is displayed below the board during the game. (It also changes depending on your competitor - player 2 or computer)
   * You can choose if you want to play agains another human (player 2) or the computer. The computer chooses a random box for each turn.
@@ -28,7 +27,7 @@
       $(boardScreen).fadeIn(500);
       $(player1).addClass("active");
 
-      // Play agains computer or player 2?
+      // Toggle - play agains computer or player 2?
       if (document.getElementById("toggle").checked) {
         $(playerName).html(nameField.value + " vs. The Computer")
       } else {
